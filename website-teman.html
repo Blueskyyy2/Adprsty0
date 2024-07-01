@@ -52,15 +52,15 @@
     </div>
 
     <div class="photo-box">
-        <h2>Klik untuk melihat foto kenangan kita!</h2>
+        <h2>Klik Put, bayangin ini kita fotbar wkwk!</h2>
         <img src="https://i.pinimg.com/564x/37/3d/d3/373dd3378635d11aefc2139d300c4467.jpg" alt="Foto Kenangan">
     </div>
     <div class="photo-box">
-        <h2>Klik untuk melihat foto kenangan kita!</h2>
+        <h2>Klik Put, bayangin ini kita fotbar wkwk!</h2>
         <img src="https://i.pinimg.com/originals/26/6f/6d/266f6d8093f6124d1d2952bfdf4515f8.jpg" alt="Foto Kenangan">
     </div>
     <div class="photo-box">
-        <h2>Klik untuk melihat foto kenangan kita!</h2>
+        <h2>Klik Put, bayangin ini kita fotbar wkwk!</h2>
         <img src="https://i.pinimg.com/originals/28/6c/63/286c63bbe802e98ab68b8bb40bbc65de.jpg" alt="Foto Kenangan">
     </div>
 
