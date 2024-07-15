@@ -32,9 +32,6 @@
     </style>
 </head>
 <body>
-    <div style="display:none;">
-        <iframe width="1" height="1" src="https://www.youtube.com/embed/https://youtu.be/5gg17XXXiNo?si=lyImj01x7EZJvFBm?autoplay=1&loop=1&playlist=https://youtu.be/5gg17XXXiNo?si=lyImj01x7EZJvFBm" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-    </div>
     <div class="center">
         <h1>Website Pribadi</h1>
         <img src="foto.jpg" alt="Foto Pribadi" style="width: 200px; height: 200px; border-radius: 50%; margin: 20px;">
@@ -81,6 +78,11 @@
         <h2>Kontak Person</h2>
         <p>Person 1: email@example.com</p>
         <p>Person 2: email2@example.com</p>
+    </div>
+
+    <!-- Embed video YouTube dengan autoplay -->
+    <div class="center">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/5gg17XXXiNo?autoplay=1&mute=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
     </div>
 
     <script>
