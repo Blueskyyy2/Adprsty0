@@ -3,52 +3,95 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Catatan Nasehat</title>
+    <title>Website Pribadi</title>
     <style>
         body {
-            background-image: url('link_ke_gambar_wallpaper');
+            background-color: #00CED1; /* Warna biru laut */
+            background-image: url('wallpaper_laut.jpg'); /* Ganti dengan URL wallpaper laut yang Anda miliki */
             background-size: cover;
             color: white;
-            text-align: center;
             font-family: Arial, sans-serif;
-            padding: 50px;
         }
-        .container {
-            max-width: 600px;
-            margin: 0 auto;
-            background-color: rgba(0, 0, 0, 0.5);
+        .center {
+            text-align: center;
+        }
+        .box {
+            margin: 20px auto;
             padding: 20px;
+            background: rgba(0, 0, 0, 0.5);
             border-radius: 10px;
+            width: 50%;
+            cursor: pointer;
         }
-        .note {
-            margin-bottom: 20px;
+        .box:hover {
+            background: rgba(0, 0, 0, 0.7);
         }
-        .photo {
-            border-radius: 50%;
-            width: 150px;
-            height: 150px;
-            object-fit: cover;
-            margin-top: 20px;
+        .hidden-content {
+            display: none;
         }
     </style>
 </head>
 <body>
-    <!-- Efek Suara -->
-    <audio autoplay loop>
-        <source src="link_ke_file_suara.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
-    </audio>
-
-    <div class="container">
-        <div class="note">
-            <h2>Nasehat dari [Nama Dia]</h2>
-            <p>"Iso iso aku yakin awakmu iso"</p>
-            <p>"Semangat nek gak yakin mending gak usah nyoba"</p>
-            <p>"Ojok nyepelekno hal-hal kecil, dijogo awake yo"</p>
-        </div>
-        <img src="link_ke_gambar_foto" alt="Foto Wajah Dia" class="photo">
-        <p>Tanggal: [Tanggal]</p>
-        <p><i>Catatan:</i> Efek suara dari [Nama Dia] untuk nasehat ini tersedia.</p>
+    <div style="display:none;">
+        <iframe width="1" height="1" src="https://www.youtube.com/embed/example?autoplay=1&loop=1&playlist=example" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
     </div>
+    <div class="center">
+        <h1>Website Pribadi</h1>
+        <img src="foto.jpg" alt="Foto Pribadi" style="width: 200px; height: 200px; border-radius: 50%; margin: 20px;">
+    </div>
+
+    <div class="center">
+        <div class="box" onclick="toggleContent('karya-sastra')">
+            <h2>Karya Sastra</h2>
+            <div id="karya-sastra" class="hidden-content">
+                <p>Isi karya sastra Anda di sini...</p>
+            </div>
+        </div>
+
+        <div class="box" onclick="toggleContent('nasehat')">
+            <h2>Nasehat</h2>
+            <div id="nasehat" class="hidden-content">
+                <p>Isi nasehat Anda di sini...</p>
+            </div>
+        </div>
+
+        <div class="box" onclick="toggleContent('cerita-kenangan')">
+            <h2>Cerita Kenangan</h2>
+            <div id="cerita-kenangan" class="hidden-content">
+                <p>Isi cerita kenangan Anda di sini...</p>
+            </div>
+        </div>
+
+        <div class="box" onclick="toggleContent('cinta-dendam')">
+            <h2>Cinta dan Dendam</h2>
+            <div id="cinta-dendam" class="hidden-content">
+                <p>Isi tentang cinta dan dendam Anda di sini...</p>
+            </div>
+        </div>
+
+        <div class="box" onclick="toggleContent('perdamaian-rindu')">
+            <h2>Perdamaian dan Rasa Rindu</h2>
+            <div id="perdamaian-rindu" class="hidden-content">
+                <p>Isi tentang perdamaian dan rasa rindu Anda di sini...</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="center" style="margin-top: 50px;">
+        <h2>Kontak Person</h2>
+        <p>Person 1: email@example.com</p>
+        <p>Person 2: email2@example.com</p>
+    </div>
+
+    <script>
+        function toggleContent(id) {
+            var content = document.getElementById(id);
+            if (content.style.display === "none" || content.style.display === "") {
+                content.style.display = "block";
+            } else {
+                content.style.display = "none";
+            }
+        }
+    </script>
 </body>
 </html>
