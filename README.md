@@ -82,7 +82,7 @@
 
     <!-- Embed video YouTube dengan autoplay -->
     <div class="center">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/5gg17XXXiNo?autoplay=1&mute=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <iframe width="1px" height="1px" src="https://www.youtube.com/embed/5gg17XXXiNo?autoplay=1&mute=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
     </div>
 
     <script>
