@@ -33,7 +33,7 @@
 </head>
 <body>
     <div style="display:none;">
-        <iframe width="1" height="1" src="https://www.youtube.com/embed/example?autoplay=1&loop=1&playlist=example" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <iframe width="1" height="1" src="https://www.youtube.com/embed/example?autoplay=1&loop=1&playlist=https://youtu.be/5gg17XXXiNo?si=rnVxTUj396zdVW17" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
     </div>
     <div class="center">
         <h1>Website Pribadi</h1>
